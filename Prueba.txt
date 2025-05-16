@@ -1,0 +1,8 @@
+main_() {
+    num_ edad = 25;
+    if_ (edad > 18) {
+        print("Mayor de edad");
+    } else_ {
+        print("Menor de edad");
+    }
+}
