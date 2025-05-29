@@ -1,8 +1,23 @@
-main_() {
-    num_ edad = 25;
-    if_ (edad > 18) {
-        print("Mayor de edad");
+proc_ main_() {
+    num_ edad = 20
+    string_ nombre = "Juan"
+    boolean_ mayor = FALSE
+
+    if_ (edad >= 18) {
+        mayor = TRUE
+        print_("Eres mayor de edad")
     } else_ {
-        print("Menor de edad");
+        print_("Eres menor de edad")
     }
+
+    print_("Nombre: " + nombre)
+    print_("Edad: " + edad)
 }
+
+func_ suma_(num_ a, num_ b) {
+    num_ resultado = a + b
+    return_ resultado
+}
+
+print_("La suma de 5 y 3 es:")
+print_(suma_(5, 3))

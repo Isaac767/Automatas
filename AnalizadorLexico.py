@@ -2,8 +2,8 @@ import re
 
 # Palabras reservadas 
 palabras_reservadas = {
-    "if", "else", "for", "proc", "func", "return", "FALSE", "TRUE",
-    "main", "print", "input", "num", "string", "boolean"
+    "if_", "else_", "for_", "proc_", "func_", "return_", "FALSE", "TRUE",
+    "main_", "print_", "input_", "num_", "string_", "boolean_"
 }
 
 # Operadores
@@ -38,7 +38,7 @@ def clasificar_token(token):
     else:
         return "Error lexico"
 
-def analizar_archivo(ruta):
+def analizar_archivo(ruta): 
     with open(ruta, 'r') as archivo:
         linea_n = 0
         for linea in archivo:
@@ -53,7 +53,7 @@ def analizar_archivo(ruta):
                     print(f"  Error lexico: {token}")
 
 # Ruta de prueba
-archivo_fuente = r"ruta/Prueba.txt"
+archivo_fuente = r"C:/Users/User\Desktop/RepositorioIntegrador/ingweb/oli/Prueba.txt"
 
 
   # crea este archivo con tu código fuente personalizado
