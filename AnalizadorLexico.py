@@ -52,9 +52,7 @@ def analizar_archivo(ruta):
                 else:
                     print(f"  Error lexico: {token}")
 
-# Ruta de prueba
+
 archivo_fuente = r"C:/Users/User\Desktop/RepositorioIntegrador/ingweb/oli/Prueba.txt"
 
-
-  # crea este archivo con tu código fuente personalizado
 analizar_archivo(archivo_fuente)

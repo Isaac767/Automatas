@@ -11,7 +11,7 @@ proc_ main_() {
     }
 
     print_("Nombre: " + nombre)
-    print_("Edad: " + edad)
+    print_("Edad: " + edad).
 }
 
 func_ suma_(num_ a, num_ b) {
